@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import furiaLogo from '../assets/images/furia-esports-seeklogo.png';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Navbar() {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
-                        src="src\assets\images\furia-esports-seeklogo.png"
+                        src={furiaLogo}
                         className="w-15 h-auto"
                         alt="Logo FURIA"
                     />

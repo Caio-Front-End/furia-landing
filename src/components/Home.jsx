@@ -13,7 +13,7 @@ export default function Home() {
 
                 <div className="flex justify-center mt-24 w-full">
                     <a
-                        href="/outra-pagina"
+                        href="https://t.me/furiachallange_bot" target="_blank"
                         className="inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center rounded-lg focus:ring-4 focus:ring-primary-300 text-white bg-blue-950 hover:bg-blue-800"
                     >
                         Conhecer

@@ -26,9 +26,8 @@ export default function About() {
                     </p>
 
                     <a
-                        href="https://link-do-bot.com"
+                        href="https://t.me/furiachallange_bot"
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center rounded-lg focus:ring-4 focus:ring-primary-300 text-white bg-blue-950 hover:bg-blue-800"
                     >
                         Conhecer

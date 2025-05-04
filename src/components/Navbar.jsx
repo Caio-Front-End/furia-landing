@@ -19,12 +19,13 @@ export default function Navbar() {
                 </a>
 
                 <div className="flex md:order-2 space-x-3 md:space-x-1 rtl:space-x-reverse">
-                    <button
+                    <a href="https://t.me/furiachallange_bot" target='_blank' className="text-white bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center cursor-pointer">
+                    <button className='cursor-pointer'
                         type="button"
-                        className="text-white bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center cursor-pointer"
                     >
                         Começar agora
                     </button>
+                    </a>
 
                     <button
                         onClick={toggleMenu}
